@@ -1,0 +1,38 @@
+
+.frente img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+.IMAGEN_PIE img {
+    
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    border-radius: 100px;
+    width: 30%;
+    right: 20%; 
+    
+    
+    
+}
+.pie_pagina img{
+    position:sticky;
+    bottom: 0;
+    left: 40%;
+    width: 20%;
+    right: 20%;
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-icon img {
+    width: 50px; /* Puedes ajustar este valor según sea necesario */
+    height: auto;
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+}
